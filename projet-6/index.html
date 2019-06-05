@@ -1,0 +1,47 @@
+﻿
+<html>
+
+    <head>
+	
+		<meta charset="utf-8">
+		 <link href="style.css" rel="stylesheet">
+		
+		
+        
+    </head>
+    
+    <body class="fond">
+        
+		<div id="gameDiv"> </div>
+			
+		<div id="hud"></div>
+		<div id="fightHud">
+			<div id="gui">
+				<input class="action" type="button" data-action="att"  value="attaque">
+				<input class="action" type="button" data-action="def"   value="defense" > 
+			</div>
+		</div>
+		
+		<div class="modal">
+			<div>
+				<div class="modal-content">
+						<span class="message">Commencer une partie ! </span>
+				</div>
+				<div class="modal-group">
+					<input id="yesButton" class="modal-button" type="button"   value="Oui !">
+				</div>
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="config.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="Player.js"></script>
+		<script type="text/javascript" src="Weapons.js"></script>
+		<script type="text/javascript" src="Position.js"></script>
+		<script type="text/javascript" src="mapElement.js"></script>
+		<script type="text/javascript" src="Map.js"></script>
+		<script type="text/javascript" src="App.js"></script>
+		<script type="text/javascript" src="game.js"></script>
+    </body>
+
+</html>

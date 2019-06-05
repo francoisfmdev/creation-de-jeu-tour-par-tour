@@ -1,0 +1,173 @@
+.modal{
+	position: absolute;
+	width:550px;
+	height:300px;
+	left: 30%;
+	z-index: 25;
+	border-style: solid;
+	border-color:  #009688;
+	border-radius: 15px; 
+	background-color:white;
+	border-width: 2px;
+	top: 10%;
+	
+}
+.fond{
+	background-color: rgba(0, 0, 0, 0.616);
+	width:100%;
+	height:100%;
+	z-index: 24;
+}
+.modale-score{
+	width:100%;
+	min-height:100px;
+}
+
+.modal-content{
+	width:100%;
+	margin-top:15%;
+	margin-left:35%;
+	color: #009688;
+	
+}
+
+.modal-group{
+	margin-top:10%;
+	margin-left:40%;
+	width:80%;
+	
+}
+.modal-button{
+border-radius: 15px; 
+width:70px;
+height:35px;	
+}
+
+#gameDiv{
+width: 50%;
+height:auto;
+display: inline-block;
+vertical-align:top;
+}
+
+
+#hud{
+	margin-top: 20px;
+	width:40%;
+	vertical-align:top;
+	display:inline-block;
+	height:200px;
+}
+#fightHud{
+	visibility: hidden;
+	margin-top: -400px;
+	margin-left: 60%;
+	width:40%;
+	display:inline-block;
+}
+
+#gui > input{
+margin-left: 25px;
+height: 40px;
+width: 75px;
+border-radius: 15px; 
+
+}
+input:hover{
+	background-color:#009688;
+	border:  1px double white;
+	color: white;
+}
+
+input{
+outline: none;
+background-color:white;
+border:  1px double #009688;
+color: #009688;
+border-radius: 10px;
+}
+.label{
+font-size: 25px;
+padding: 7px;
+margin:7px;
+color:#009688;
+border: 1px double #009688;
+border-radius: 15px;
+text-align:center;
+}
+
+.miniHud{
+font-size: 20px;
+margin-top: 15px;
+color:#009688;
+text-align: center;
+}
+
+
+.case{
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+.wall{
+    background-color: grey;
+}
+
+.sword{
+	background-image: url("sword.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:burlywood;
+}
+.axe{
+	background-image: url("axe.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:burlywood;
+}
+.holybible{
+	background-image: url("holybible.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:burlywood;
+}
+
+.fist{
+	background-image: url("fist.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:burlywood;
+}
+.dagger{
+	background-image: url("dagger.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:burlywood;
+}
+
+
+.player0{
+	background-image:url("player0.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.player1{
+	background-image:url("player1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.textHud{
+	font-size: 25px;
+	margin: 10px;
+	padding: 10px;
+	color: gray;
+}
+.textPlayer1{
+	color: red;
+}
+.textPlayer2{
+	color: green;
+}
+.color-path{
+	background-color: cornflowerblue;
+}
